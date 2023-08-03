@@ -8,4 +8,4 @@ pm2 update
 
 # delete existing bundle
 cd /home/ubuntu
-# rm -rf node
+rm -rf node
