@@ -10,9 +10,15 @@
 
 Code-deploy roles
 ```
-Auto-Scaling permission
 EC2 Permission
 CodeDeploy Permission
+Attache some permissions on AWSCodeDeployRole  
+
+ec2:RunInstances
+
+ec2:CreateTags
+
+iam:PassRole
 ```
 ### USer data for launch template
 ```
